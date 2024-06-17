@@ -59,6 +59,7 @@ public class printyears {
                 if (dob.getYear() <= year) {
                     int age = calculateAge(dob, year);
                     System.out.println("  " + name + " was " + age + " years old in " + year);
+                     System.out.println("done task");
                 }
             }
         }
